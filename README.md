@@ -1,2 +1,65 @@
 # BigData
 Big Data projects implemented with PySpark, focusing on data processing, analysis, and real-time streaming.
+
+# Big Data PySpark Projects
+
+This repository contains a collection of big data projects implemented using PySpark, focusing on large-scale data processing, clustering, recommendation systems, and text analysis. Each project is designed to solve a real-world data problem using scalable distributed computing techniques.
+
+## Projects
+
+### 1. [Arxiv Article Dataset Analysis](./project-01-arxiv-analysis/)
+Preprocessing and exploratory data analysis on a dataset of Arxiv research articles. Includes:
+- Counting articles per category
+- Analyzing the number of authors per paper
+- Filtering papers with a high number of authors
+- Distribution of publications by year
+- Identifying articles containing specific keywords
+
+### 2. [Frequent Trigram Mining with Apriori and PCY](./project-02-frequent-trigrams/)
+Mining the most frequent 3-word phrases (trigrams) in the Arxiv dataset using two popular algorithms:
+- Apriori
+- PCY (Park–Chen–Yu)
+
+Includes evaluation of performance and memory usage.
+
+### 3. [Article Similarity Search with LSH](./project-03-article-similarity-lsh/)
+Implementation of the Locality-Sensitive Hashing (LSH) algorithm for finding similar articles based on their textual content. Given the ID of an article, the system retrieves a list of similar articles along with their similarity scores.
+
+### 4. [Book Recommendation System (Collaborative Filtering)](./project-04-book-recommender/)
+A collaborative filtering-based recommendation engine using PySpark's MLlib. The system analyzes user ratings of books and recommends books that a user is likely to enjoy.
+
+### 5. [Geospatial Clustering and Dimensionality Reduction](./project-05-clustering-dim-reduction/)
+Clustering and visualization of high-dimensional geographic data using:
+- **PCA** (Principal Component Analysis)
+- **UMAP** (Uniform Manifold Approximation and Projection)
+- **BFR** (Bradley–Fayyad–Reina Clustering Algorithm)
+
+Clustering quality is evaluated using:
+- Silhouette Score
+- Davies-Bouldin Index
+
+---
+
+## Technologies Used
+
+- Python 3.x
+- PySpark
+- Apache Spark
+- MLlib
+- NumPy, Pandas, Matplotlib (for preprocessing and evaluation)
+- Jupyter / Google Colab
+
+---
+
+## Getting Started
+
+Each project contains its own folder with a dedicated `README.md`, source code, and sample data or instructions for usage. You can run the scripts using:
+
+```bash
+spark-submit your_script.py
+```
+
+## Author
+
+Mohammad Ali Etemadi Naeen
+Master's student, Sharif University of Technology  
