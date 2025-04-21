@@ -1,7 +1,5 @@
-# BigData
-Big Data projects implemented with PySpark, focusing on data processing, analysis, and real-time streaming.
-
 # Big Data PySpark Projects
+Big Data projects implemented with PySpark, focusing on data processing, analysis, and real-time streaming.
 
 This repository contains a collection of big data projects implemented using PySpark, focusing on large-scale data processing, clustering, recommendation systems, and text analysis. Each project is designed to solve a real-world data problem using scalable distributed computing techniques.
 
