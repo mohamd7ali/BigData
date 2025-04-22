@@ -34,6 +34,21 @@ Clustering quality is evaluated using:
 - Silhouette Score
 - Davies-Bouldin Index
 
+### 6. [Real-Time News Stream Processing](./project-06-streaming-news-processor/)
+A streaming application using PySpark's Structured Streaming to process incoming real-time news data from various categories. The system extracts and aggregates key information from live news feeds.
+
+### 7. [Streaming Analysis with DGIM and FM Algorithms](./project-07-streaming-dgim-fm/)
+Stream analysis using two approximate algorithms:
+- **DGIM** (Datar-Gionis-Indyk-Motwani): Estimates the number of successful user requests over sliding time windows.
+- **Flajolet-Martin (FM)**: Estimates the number of unique users visiting a website using multiple hash functions.
+
+### 8. [Graph Algorithms: PageRank and HITS](./project-08-graph-algorithms/)
+Implementation of:
+- **PageRank**: Ranks nodes in a directed graph based on link structure.
+- **HITS (Hyperlink-Induced Topic Search)**: Identifies hubs and authorities in the graph.
+
+Both algorithms are tested and visualized on sample graph datasets.
+
 ---
 
 ## Technologies Used
@@ -41,6 +56,7 @@ Clustering quality is evaluated using:
 - Python 3.x
 - PySpark
 - Apache Spark
+- Structured Streaming
 - MLlib
 - NumPy, Pandas, Matplotlib (for preprocessing and evaluation)
 - Jupyter / Google Colab
@@ -58,4 +74,5 @@ spark-submit your_script.py
 ## Author
 
 Mohammad Ali Etemadi Naeen
+
 Master's student, Sharif University of Technology  
