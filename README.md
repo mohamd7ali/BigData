@@ -22,7 +22,7 @@ Includes evaluation of performance and memory usage.
 Implementation of the Locality-Sensitive Hashing (LSH) algorithm for finding similar articles based on their textual content. Given the ID of an article, the system retrieves a list of similar articles along with their similarity scores.
 
 ### 4. [Book Recommendation System (Collaborative Filtering)](./project-04-book-recommender/)
-A collaborative filtering-based recommendation engine using PySpark's MLlib. The system analyzes user ratings of books and recommends books that a user is likely to enjoy.
+A collaborative filtering-based recommendation engine using PySpark. The system analyzes user ratings of books and recommends books that a user is likely to enjoy.
 
 ### 5. [Geospatial Clustering and Dimensionality Reduction](./project-05-clustering-dim-reduction/)
 Clustering and visualization of high-dimensional geographic data using:
