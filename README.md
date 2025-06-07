@@ -3,7 +3,7 @@ This repository contains a collection of big data projects implemented using PyS
 
 ## Projects
 
-### 1. [Arxiv Article Dataset Analysis](./project-01-arxiv-analysis/)
+### 1. [Arxiv Article Dataset Analysis](./Arxiv_RDD_Analysis/)
 Preprocessing and exploratory data analysis on a dataset of Arxiv research articles. Includes:
 - Counting articles per category
 - Analyzing the number of authors per paper
