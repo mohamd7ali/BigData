@@ -11,7 +11,7 @@ Preprocessing and exploratory data analysis on a dataset of Arxiv research artic
 - Distribution of publications by year
 - Identifying articles containing specific keywords
 
-### 2. [Frequent Trigram Mining with Apriori and PCY](./project-02-frequent-trigrams/)
+### 2. [Frequent Trigram Mining with Apriori and PCY](./Apriori_PCY_Frequent_Trigram/)
 Mining the most frequent 3-word phrases (trigrams) in the Arxiv dataset using two popular algorithms:
 - Apriori
 - PCY (Park–Chen–Yu)
