@@ -18,7 +18,7 @@ Mining the most frequent 3-word phrases (trigrams) in the Arxiv dataset using tw
 
 Includes evaluation of performance and memory usage.
 
-### 3. [Article Similarity Search with LSH](./project-03-article-similarity-lsh/)
+### 3. [Article Similarity Search with Locality Sensitive Hashing (LSH)](./Locality%20Sensitive%20Hashing%20%28LSH%29/)
 Implementation of the Locality-Sensitive Hashing (LSH) algorithm for finding similar articles based on their textual content. Given the ID of an article, the system retrieves a list of similar articles along with their similarity scores.
 
 ### 4. [Book Recommendation System (Collaborative Filtering)](./Book_Recommendation_System/)
